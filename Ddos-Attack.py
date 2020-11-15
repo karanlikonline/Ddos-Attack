@@ -5,16 +5,11 @@ import os
 os.system("clear")
 banner="""
 ####################
-#  Ddos Attack V1. #
+#                  #
+#  Ddos Attack V1  #
+#                  #
 ####################
 karanlik.online ~Salvadores Team
-
-
-
-
-
-
- 
 """
 print(banner)
  
