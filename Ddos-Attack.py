@@ -4,13 +4,16 @@ import os
  
 os.system("clear")
 banner="""
-############################
-#                          #
-# Code by karanlik.online  #
-#                          #
-# Salvadores Team          #
-#                          #
-############################
+####################
+#  Ddos Attack V1. #
+####################
+karanlik.online ~Salvadores Team
+
+
+
+
+
+
  
 """
 print(banner)
