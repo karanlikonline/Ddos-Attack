@@ -4,12 +4,12 @@ import os
  
 os.system
 banner="""
-              ####################
-              #                  #
-              #  Ddos Attack V1  #
-              #                  #
-              ####################
-karanlik.online ~Salvadores Team
+                            ####################
+                            #                  #
+                            #  Ddos Attack V1  #
+                            #                  #
+                            ####################
+                      karanlik.online ~Salvadores Team
 """
 print(banner)
  
