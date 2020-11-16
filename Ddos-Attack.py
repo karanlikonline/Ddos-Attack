@@ -11,7 +11,7 @@ banner="""
 ####################
 karanlik.online ~Salvadores Team
 """
-print(banner)0
+print(banner)
  
 hedef_ip=input("hedef ip: ")
 hedef_port=input("hedef port: ")
