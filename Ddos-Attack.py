@@ -9,7 +9,7 @@ banner="""
                          #  Ddos Attack V1  #
                          #     🇹🇷🇹🇷🇹🇷🇹🇷     #
                          ####################
-                      karanlik.online ~Salvadores Team
+                    karanlik.online ~Salvadores Team
 """
 print(banner)
  
