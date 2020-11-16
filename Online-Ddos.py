@@ -21,7 +21,7 @@ os.system("clear")
 os.system("figlet DDos Attack")
 print
 print "github   : https://github.com/karanlikonline
-print "Instagram   : instagram.com/karanlik.online
+print "instagram   : instagram.com/karanlik.online
 print
 ip = input("Hedef IP : ")
 port = input("Port : ")
