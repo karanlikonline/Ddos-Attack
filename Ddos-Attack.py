@@ -2,7 +2,6 @@ import socket
 import random
 import os
  
-os.system("clear")
 banner="""
 ####################
 #                  #
@@ -11,7 +10,7 @@ banner="""
 ####################
 karanlik.online ~Salvadores Team
 """
-print(banner)
+print(banner)0
  
 hedef_ip=input("hedef ip: ")
 hedef_port=input("hedef port: ")
