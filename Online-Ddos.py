@@ -6,8 +6,8 @@ from colorama import Fore, Back, Style, init
 os.system("clear")
 banner="""
 ##################################
-#GOTUNE GİRSİN HAWK              #
-#Code by karanlık.online         #
+#BU TOOL SENİN GÖTUNE GİRSİN HAWK#            
+#Code by Göt Hawk                #
 ##################################
 """
 print(Fore.GREEN + banner)
